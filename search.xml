@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>shikimori.one</ShortName>
+  <Description>shikimori.one anime search</Description>
+  <Image height="16" width="16" type="image/x-icon">https://shikimori.one/favicon.ico</Image>
+  <Url type="text/html"
+    method="get"
+    rel="results"
+    template="https://shikimori.one/animes?search={searchTerms}"/>
+  <Url type="application/x-suggestions+json"
+    rel="suggestions"
+    template="https://shikimori.one/animes.os?search={searchTerms}"/>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>*</Language>
+  <Contact>admin@shikimori.org</Contact>
+</OpenSearchDescription>
